@@ -1,0 +1,234 @@
+
+*{
+   
+    font-family: "Jacques Francois", serif;
+   
+}
+
+
+
+
+header{
+    padding: 40px 20px 20px 20px;
+    background: #0B2545;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    box-shadow:  0px 5px 8px 0 rgba(0, 0, 0, 0.2) ;
+  
+
+ 
+    
+ 
+    
+}
+
+header .h1{
+    color: white;
+    padding-bottom: 30px;
+    padding-left: 10px;
+    font-size: 1.5rem;
+    text-align: center;
+}
+header .image-container img {
+    max-height: 100px;
+   
+  }
+  .image-container{
+    padding-left: 60px;
+  }
+
+  .image-container img {
+    max-width: 100%;
+    width: auto;
+    border-radius: 50px;
+    
+    border: solid 2px white;
+    max-height: 100%;
+    overflow: hidden;
+  }
+
+.contactus{ 
+    color: white;
+    padding-left: 20px;
+}
+
+
+.nav-bar ul {
+    list-style: none;
+    width: 100%;
+    text-align: center;
+    
+   
+    
+  
+  }
+
+
+  .nav-bar a:hover {
+      text-decoration: underline;
+     
+      color: #6c9bc2;
+      
+    }
+  
+  .nav-bar a{
+    text-decoration: none;
+    padding: 0.7em 1em;
+    color: white;
+    width: 100%;
+    display: block;
+  }
+.imgcontainer img{
+    width: 100%;
+    height: 100%;
+    object-position: center;
+    
+}
+.imgcontainer {
+    height: 400px;
+    background-image: url(images/mountains_stretch.jpg);
+    background-size: auto 100%;
+    background-position: center;
+}
+
+
+* {
+box-sizing: border-box;
+
+}
+
+form {
+max-width: 500px;
+margin: 10px auto;
+padding: 10px 20px;
+background: #e4eaef;
+border-radius: 8px;
+}
+
+
+
+input[type="text"],
+input[type="subject"],
+input[type="Comments/Questions"],
+input[type="date"],
+input[type="datetime"],
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="tel"],
+input[type="time"],
+input[type="url"],
+textarea,
+select {
+background: rgba(255, 255, 255, 0.1);
+border: 2px solid transparent;
+font-size: 16px;
+height: auto;
+margin: 0;
+outline: 0;
+padding: 15px;
+width: 100%;
+background-color: #f5f5f5;
+color: #134074;
+box-shadow: 0 1px 0 rgba(0, 0, 0, 0.03) inset;
+margin-bottom: 30px;
+transition: all 350ms;
+}
+
+input::placeholder,
+textarea::placeholder {
+color: #8DA9C4;}
+
+
+input:hover,
+input:focus,
+textarea:hover,
+textarea:focus {
+border: 2px solid #134074;
+}
+
+
+
+button {
+padding: 19px 39px 18px 39px;
+color: #fff;
+background-color: #0B2545;
+font-size: 18px;
+text-align: center;
+font-style: normal;
+border-radius: 5px;
+border: none;
+width: 100%;
+margin-bottom: 10px;
+transition: all 350ms;
+}
+
+button:hover,
+button:focus {
+background-color: #8DA9C4;
+color: black;
+}
+
+fieldset {
+margin-bottom: 30px;
+border: none;
+}
+
+
+label {
+display: block;
+margin-bottom: 8px;
+}
+
+label.light {
+font-weight: 300;
+display: inline;
+}
+
+
+
+main {
+    color: #0b2545;
+}
+
+footer{
+    color:white;
+    padding: 40px;
+    background-color: #0B2545;
+    font-size: medium;
+}
+
+.footerclass{
+    color: white;
+    padding-left: 20px;
+}
+
+.boxcontainer {
+    width: 100%;
+height: 50%;
+display: block;
+margin:0;
+padding:0;
+text-align: center;
+}
+
+@media (min-width: 768px) {
+    .nav-bar ul{
+        display: flex;
+        flex-direction: row;
+        padding: 1.4rem;
+    }
+    form{
+        border-radius: none;
+        border-right: 5px solid #0B2545;
+        border-left: 5px solid #0B2545 ;
+        max-width: 780px;
+        width: 100%;
+    }
+}
+
+   
+
+
+   
